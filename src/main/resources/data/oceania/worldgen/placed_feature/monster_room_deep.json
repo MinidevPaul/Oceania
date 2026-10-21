@@ -1,0 +1,23 @@
+{
+  "feature": "minecraft:monster_room",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 5
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "oceania:floor_depth",
+      "depth": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 128,
+        "max_inclusive": 300
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

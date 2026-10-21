@@ -1,0 +1,8 @@
+{
+  "amount": 2,
+  "random_sequence": "oceania:trade_set/fletcher/level_4",
+  "trades": [
+    "oceania:fletcher/4/feather_emerald",
+    "oceania:fletcher/4/emerald_chest_boat"
+  ]
+}

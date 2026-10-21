@@ -1,0 +1,9 @@
+{
+  "amount": 2,
+  "random_sequence": "oceania:trade_set/leatherworker/level_2",
+  "trades": [
+    "oceania:leatherworker/2/prismarine_shard_emerald",
+    "oceania:leatherworker/2/emerald_dyed_leather_helmet",
+    "oceania:leatherworker/2/emerald_dyed_leather_boots"
+  ]
+}

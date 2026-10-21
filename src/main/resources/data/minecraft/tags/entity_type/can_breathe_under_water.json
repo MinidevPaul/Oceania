@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "oceania:shark",
+    "oceania:reef_crab",
+    "oceania:king_crab",
+    "oceania:coconut_crab",
+    "oceania:giant_squid",
+    "oceania:moon_jelly",
+    "oceania:nettle_jelly",
+    "oceania:crown_jelly"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "amount": 2,
+  "random_sequence": "oceania:trade_set/fisherman/level_3",
+  "trades": [
+    "oceania:fisherman/3/kelp_emerald",
+    "oceania:fisherman/3/emerald_fishing_rod"
+  ]
+}

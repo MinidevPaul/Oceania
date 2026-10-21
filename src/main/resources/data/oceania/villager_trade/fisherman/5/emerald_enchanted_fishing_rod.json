@@ -1,0 +1,38 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 8
+  },
+  "gives": {
+    "id": "minecraft:fishing_rod"
+  },
+  "max_uses": 3,
+  "xp": 30,
+  "reputation_discount": 0.2,
+  "given_item_modifier": [
+    {
+      "type": "minecraft:enchant_with_levels",
+      "levels": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 19
+      },
+      "options": "#minecraft:on_traded_equipment",
+      "include_additional_cost_component": true
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:fishing_rod",
+        "predicates": {
+          "minecraft:enchantments": [
+            {}
+          ]
+        }
+      },
+      "on_fail": {
+        "type": "minecraft:discard"
+      }
+    }
+  ]
+}

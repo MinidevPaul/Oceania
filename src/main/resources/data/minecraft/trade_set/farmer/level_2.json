@@ -1,0 +1,8 @@
+{
+  "amount": 2,
+  "random_sequence": "oceania:trade_set/farmer/level_2",
+  "trades": [
+    "oceania:farmer/2/bamboo_emerald",
+    "oceania:farmer/2/emerald_root_crop"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "wants": {
+    "id": "minecraft:beef",
+    "count": 10
+  },
+  "gives": {
+    "id": "minecraft:emerald"
+  },
+  "max_uses": 16,
+  "xp": 2,
+  "reputation_discount": 0.05,
+  "merchant_predicate": {
+    "type": "oceania:villager_roll",
+    "choices": 3,
+    "choice": 2,
+    "salt": "butcher/1"
+  }
+}

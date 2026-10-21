@@ -1,0 +1,1627 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "minecraft:overworld",
+      "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "biomes": [
+            {
+              "biome": "oceania:trench",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  -1.0,
+                  -0.85
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -2.0,
+                  0.25
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:abyssal_plain",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.85,
+                  -0.55
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  0.3
+                ],
+                "depth": [
+                  -2.0,
+                  0.25
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:ridge",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.85,
+                  -0.55
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "weirdness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": [
+                  -2.0,
+                  0.25
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:barren_flank",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.55,
+                  0.6
+                ],
+                "erosion": [
+                  -1.0,
+                  -0.44
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -2.0,
+                  0.25
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:ridge",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.55,
+                  -0.15
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": [
+                  -2.0,
+                  0.25
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:seamount_flank",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.55,
+                  -0.15
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  0.3
+                ],
+                "depth": [
+                  -2.0,
+                  0.25
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:rocky_floor",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.15,
+                  0.05
+                ],
+                "erosion": [
+                  -0.44,
+                  0.2
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -2.0,
+                  0.25
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:kelp_forest",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.15,
+                  0.05
+                ],
+                "erosion": [
+                  0.2,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -2.0,
+                  0.25
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:reef",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.05,
+                  0.3
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -0.6,
+                  1.0
+                ],
+                "depth": [
+                  -2.0,
+                  0.25
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:lagoon",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.05,
+                  0.3
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.6
+                ],
+                "depth": [
+                  -2.0,
+                  0.25
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:island_cliff",
+              "parameters": {
+                "temperature": [
+                  0.5,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.3,
+                  0.6
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -2.0,
+                  0.25
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:sandy_shelf",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.3,
+                  0.45
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -2.0,
+                  0.25
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:island_sand",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.45,
+                  0.6
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -2.0,
+                  0.25
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:island_barren",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.6,
+                  1.0
+                ],
+                "erosion": [
+                  -1.0,
+                  -0.44
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -2.0,
+                  0.25
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:island_jungle",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.6,
+                  1.0
+                ],
+                "erosion": [
+                  -0.44,
+                  0.24
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -2.0,
+                  0.25
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:island_sand",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.6,
+                  1.0
+                ],
+                "erosion": [
+                  0.24,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -2.0,
+                  0.25
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:island_cliff",
+              "parameters": {
+                "temperature": [
+                  0.5,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.6,
+                  1.0
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -2.0,
+                  0.25
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:trench",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -0.33,
+                  1.0
+                ],
+                "continentalness": [
+                  -1.0,
+                  -0.85
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.25,
+                  1.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:trench",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  0.45
+                ],
+                "continentalness": [
+                  -1.0,
+                  -0.85
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  1.0,
+                  2.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:abyssal_plain",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -0.33,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.85,
+                  -0.55
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  0.3
+                ],
+                "depth": [
+                  0.25,
+                  1.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:abyssal_plain",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  0.45
+                ],
+                "continentalness": [
+                  -0.85,
+                  -0.55
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  0.3
+                ],
+                "depth": [
+                  1.0,
+                  2.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:ridge",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -0.33,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.85,
+                  -0.55
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "weirdness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": [
+                  0.25,
+                  1.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:ridge",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  0.45
+                ],
+                "continentalness": [
+                  -0.85,
+                  -0.55
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "weirdness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": [
+                  1.0,
+                  2.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:barren_flank",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.55,
+                  0.6
+                ],
+                "erosion": [
+                  -1.0,
+                  -0.44
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.25,
+                  2.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:ridge",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -0.33,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.55,
+                  -0.15
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": [
+                  0.25,
+                  1.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:ridge",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  0.45
+                ],
+                "continentalness": [
+                  -0.55,
+                  -0.15
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  0.3,
+                  1.0
+                ],
+                "depth": [
+                  1.0,
+                  2.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:seamount_flank",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -0.33,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.55,
+                  -0.15
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  0.3
+                ],
+                "depth": [
+                  0.25,
+                  1.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:seamount_flank",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  0.45
+                ],
+                "continentalness": [
+                  -0.55,
+                  -0.15
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  0.3
+                ],
+                "depth": [
+                  1.0,
+                  2.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:rocky_floor",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -0.33,
+                  0.14
+                ],
+                "continentalness": [
+                  -0.15,
+                  0.05
+                ],
+                "erosion": [
+                  -0.44,
+                  0.2
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.25,
+                  1.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:rocky_floor",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  0.45
+                ],
+                "continentalness": [
+                  -0.15,
+                  0.05
+                ],
+                "erosion": [
+                  -0.44,
+                  0.2
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  1.0,
+                  2.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:kelp_forest",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -0.33,
+                  0.14
+                ],
+                "continentalness": [
+                  -0.15,
+                  0.05
+                ],
+                "erosion": [
+                  0.2,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.25,
+                  1.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:kelp_forest",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  0.45
+                ],
+                "continentalness": [
+                  -0.15,
+                  0.05
+                ],
+                "erosion": [
+                  0.2,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  1.0,
+                  2.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:reef",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -0.33,
+                  0.14
+                ],
+                "continentalness": [
+                  0.05,
+                  0.3
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -0.6,
+                  1.0
+                ],
+                "depth": [
+                  0.25,
+                  1.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:reef",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  0.45
+                ],
+                "continentalness": [
+                  0.05,
+                  0.3
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -0.6,
+                  1.0
+                ],
+                "depth": [
+                  1.0,
+                  2.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:lagoon",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -0.33,
+                  0.14
+                ],
+                "continentalness": [
+                  0.05,
+                  0.3
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.6
+                ],
+                "depth": [
+                  0.25,
+                  1.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:lagoon",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  0.45
+                ],
+                "continentalness": [
+                  0.05,
+                  0.3
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  -0.6
+                ],
+                "depth": [
+                  1.0,
+                  2.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:island_cliff",
+              "parameters": {
+                "temperature": [
+                  0.5,
+                  1.0
+                ],
+                "humidity": [
+                  -0.33,
+                  0.14
+                ],
+                "continentalness": [
+                  0.3,
+                  0.6
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.25,
+                  1.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:island_cliff",
+              "parameters": {
+                "temperature": [
+                  0.5,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  0.45
+                ],
+                "continentalness": [
+                  0.3,
+                  0.6
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  1.0,
+                  2.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:sandy_shelf",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  0.5
+                ],
+                "humidity": [
+                  -0.33,
+                  0.14
+                ],
+                "continentalness": [
+                  0.3,
+                  0.45
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.25,
+                  1.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:sandy_shelf",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  0.45
+                ],
+                "continentalness": [
+                  0.3,
+                  0.45
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  1.0,
+                  2.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:island_sand",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  0.5
+                ],
+                "humidity": [
+                  -0.33,
+                  0.14
+                ],
+                "continentalness": [
+                  0.45,
+                  0.6
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.25,
+                  1.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:island_sand",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  0.45
+                ],
+                "continentalness": [
+                  0.45,
+                  0.6
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  1.0,
+                  2.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:island_barren",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.6,
+                  1.0
+                ],
+                "erosion": [
+                  -1.0,
+                  -0.44
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.25,
+                  2.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:island_jungle",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  0.5
+                ],
+                "humidity": [
+                  -0.33,
+                  0.14
+                ],
+                "continentalness": [
+                  0.6,
+                  1.0
+                ],
+                "erosion": [
+                  -0.44,
+                  0.24
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.25,
+                  1.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:island_jungle",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  0.45
+                ],
+                "continentalness": [
+                  0.6,
+                  1.0
+                ],
+                "erosion": [
+                  -0.44,
+                  0.24
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  1.0,
+                  2.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:island_sand",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  0.5
+                ],
+                "humidity": [
+                  -0.33,
+                  0.14
+                ],
+                "continentalness": [
+                  0.6,
+                  1.0
+                ],
+                "erosion": [
+                  0.24,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.25,
+                  1.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:island_sand",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  0.5
+                ],
+                "humidity": [
+                  -1.0,
+                  0.45
+                ],
+                "continentalness": [
+                  0.6,
+                  1.0
+                ],
+                "erosion": [
+                  0.24,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  1.0,
+                  2.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:island_cliff",
+              "parameters": {
+                "temperature": [
+                  0.5,
+                  1.0
+                ],
+                "humidity": [
+                  -0.33,
+                  0.14
+                ],
+                "continentalness": [
+                  0.6,
+                  1.0
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.25,
+                  1.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:island_cliff",
+              "parameters": {
+                "temperature": [
+                  0.5,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  0.45
+                ],
+                "continentalness": [
+                  0.6,
+                  1.0
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  1.0,
+                  2.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:dripstone_caves",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -0.55,
+                  -0.33
+                ],
+                "continentalness": [
+                  -1.0,
+                  1.0
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.25,
+                  1.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:lush_caves",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  0.14,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.15,
+                  1.0
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.25,
+                  1.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:sulfur_caves",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.55
+                ],
+                "continentalness": [
+                  -1.0,
+                  1.0
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.25,
+                  1.0
+                ],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "oceania:deep_dark",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  0.45,
+                  1.0
+                ],
+                "continentalness": [
+                  -1.0,
+                  1.0
+                ],
+                "erosion": [
+                  -0.44,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  1.0,
+                  2.0
+                ],
+                "offset": 0.0
+              }
+            }
+          ]
+        },
+        "settings": "minecraft:overworld"
+      }
+    },
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
+      "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+          "type": "minecraft:the_end"
+        },
+        "settings": "minecraft:end"
+      }
+    },
+    "minecraft:the_nether": {
+      "type": "minecraft:the_nether",
+      "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "preset": "minecraft:nether"
+        },
+        "settings": "minecraft:nether"
+      }
+    }
+  }
+}

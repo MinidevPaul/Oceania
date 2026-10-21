@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "oceania:turtle"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "oceania:turtle"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "oceania:turtle"
+      }
+    ]
+  }
+}

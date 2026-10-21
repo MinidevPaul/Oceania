@@ -1,0 +1,7 @@
+{
+  "amount": 1,
+  "random_sequence": "oceania:trade_set/farmer/level_5",
+  "trades": [
+    "oceania:farmer/5/emerald_prized_sapling"
+  ]
+}

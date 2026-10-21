@@ -1,0 +1,8 @@
+{
+  "amount": 2,
+  "random_sequence": "oceania:trade_set/cleric/level_3",
+  "trades": [
+    "oceania:cleric/3/pufferfish_emerald",
+    "oceania:cleric/3/emerald_lapis_lazuli"
+  ]
+}

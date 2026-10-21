@@ -1,0 +1,54 @@
+{
+  "type": "oceania:hut_village",
+  "biomes": "#oceania:has_structure/hut_village",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": []
+    },
+    "creature": {
+      "bounding_box": "piece",
+      "spawns": []
+    }
+  },
+  "start_pool": "oceania:hut_village/centers",
+  "size": 12,
+  "max_distance_from_center": 52,
+  "shore_search": 80,
+  "max_height_spread": 24,
+  "dock": "oceania:hut_village/dock",
+  "dock_landward": 6,
+  "path_link": "oceania:hut_village/path_link",
+  "required_buildings": [
+    {
+      "buildings": [
+        "oceania:hut_village/01_fale_hip_hay_7x9",
+        "oceania:hut_village/03_long_fale_porch_7x11",
+        "oceania:hut_village/10_fale_gable_hay_7x9",
+        "oceania:hut_village/07_fale_woven_end_7x9"
+      ],
+      "minimum": 2
+    },
+    {
+      "buildings": [
+        "oceania:hut_village/31_farm_plot_7x9"
+      ],
+      "minimum": 2
+    }
+  ],
+  "shore_buildings": [
+    [
+      "oceania:hut_village/16_canoe_shed_7x11",
+      "oceania:hut_village/17_canoe_shed_7x13_closed"
+    ],
+    [
+      "oceania:hut_village/13_open_shelter_7x7_end"
+    ]
+  ],
+  "shore_ground_delta": 2,
+  "spacing": 10,
+  "separation": 5,
+  "salt": 7215104
+}

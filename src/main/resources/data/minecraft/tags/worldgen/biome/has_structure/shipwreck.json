@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "oceania:reef",
+    "oceania:lagoon",
+    "oceania:sandy_shelf",
+    "oceania:kelp_forest",
+    "oceania:rocky_floor"
+  ]
+}

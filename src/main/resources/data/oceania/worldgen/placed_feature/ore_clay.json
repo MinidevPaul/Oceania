@@ -1,0 +1,23 @@
+{
+  "feature": "minecraft:ore_clay",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 14
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "oceania:floor_depth",
+      "depth": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 32,
+        "max_inclusive": 128
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

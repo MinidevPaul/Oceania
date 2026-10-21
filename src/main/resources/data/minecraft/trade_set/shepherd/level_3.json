@@ -1,0 +1,11 @@
+{
+  "amount": 2,
+  "random_sequence": "oceania:trade_set/shepherd/level_3",
+  "trades": [
+    "oceania:shepherd/3/white_wool_emerald",
+    "oceania:shepherd/3/black_wool_emerald",
+    "oceania:shepherd/3/gray_wool_emerald",
+    "oceania:shepherd/3/brown_wool_emerald",
+    "oceania:shepherd/3/emerald_bed"
+  ]
+}

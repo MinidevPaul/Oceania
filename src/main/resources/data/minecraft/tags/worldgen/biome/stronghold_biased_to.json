@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "oceania:island_jungle",
+    "oceania:island_sand",
+    "oceania:island_cliff",
+    "oceania:dripstone_caves",
+    "oceania:lush_caves"
+  ]
+}

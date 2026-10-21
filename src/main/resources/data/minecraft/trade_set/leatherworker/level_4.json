@@ -1,0 +1,8 @@
+{
+  "amount": 2,
+  "random_sequence": "oceania:trade_set/leatherworker/level_4",
+  "trades": [
+    "oceania:leatherworker/4/bone_emerald",
+    "oceania:leatherworker/4/emerald_armor_trim"
+  ]
+}

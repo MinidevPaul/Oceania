@@ -1,0 +1,8 @@
+{
+  "amount": 2,
+  "random_sequence": "oceania:trade_set/librarian/level_4",
+  "trades": [
+    "oceania:librarian/4/glow_ink_sac_emerald",
+    "oceania:librarian/4/emerald_bookshelf"
+  ]
+}

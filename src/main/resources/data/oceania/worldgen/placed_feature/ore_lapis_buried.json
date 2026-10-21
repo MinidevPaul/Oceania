@@ -1,0 +1,23 @@
+{
+  "feature": "oceania:ore_lapis",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 7
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "oceania:floor_depth",
+      "depth": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 0,
+        "max_inclusive": 300
+      }
+    },
+    {
+      "type": "oceania:column_biome"
+    }
+  ]
+}

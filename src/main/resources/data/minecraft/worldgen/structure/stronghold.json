@@ -1,0 +1,13 @@
+{
+  "type": "oceania:floor_stronghold",
+  "biomes": "#minecraft:has_structure/stronghold",
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "bury",
+  "floor_depth": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 16,
+    "max_inclusive": 72
+  },
+  "min_y": -620
+}

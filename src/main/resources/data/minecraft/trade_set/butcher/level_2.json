@@ -1,0 +1,8 @@
+{
+  "amount": 2,
+  "random_sequence": "oceania:trade_set/butcher/level_2",
+  "trades": [
+    "oceania:butcher/2/dried_kelp_emerald",
+    "oceania:butcher/2/emerald_bread"
+  ]
+}

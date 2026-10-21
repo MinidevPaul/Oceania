@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 20083232,
+    "separation": 10,
+    "spacing": 32,
+    "exclusion_zone": {
+      "other_set": "minecraft:trial_chambers",
+      "chunk_count": 8
+    }
+  },
+  "structures": [
+    {
+      "structure": "minecraft:ancient_city",
+      "weight": 1
+    }
+  ]
+}

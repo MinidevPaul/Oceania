@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:cache",
+  "input": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+      "type": "minecraft:noise",
+      "noise": "oceania:cave_select",
+      "xz_scale": 1.0,
+      "y_scale": 0.0
+    }
+  }
+}

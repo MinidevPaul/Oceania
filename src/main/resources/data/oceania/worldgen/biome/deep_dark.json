@@ -1,0 +1,80 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "effects": {
+    "water_color": "#3f76e4"
+  },
+  "attributes": {
+    "minecraft:visual/sky_color": "#78a7ff",
+    "minecraft:visual/fog_color": "#c0d8ff",
+    "minecraft:visual/water_fog_color": "#050533",
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "minecraft:music.overworld.deep_dark",
+        "min_delay": 12000,
+        "max_delay": 24000
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {}
+      },
+      "modifier": "overlay"
+    }
+  },
+  "carvers": [
+    "oceania:island_cave",
+    "oceania:island_cave_extra",
+    "oceania:island_canyon",
+    "oceania:deep_cave",
+    "oceania:deep_cave_extra"
+  ],
+  "features": [
+    [],
+    [
+      "oceania:lake_lava_underground"
+    ],
+    [
+      "oceania:amethyst_geode",
+      "oceania:fossil_upper",
+      "oceania:fossil_lower"
+    ],
+    [
+      "oceania:monster_room",
+      "oceania:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "oceania:ore_diamond",
+      "oceania:ore_diamond_buried",
+      "oceania:ore_coal",
+      "oceania:ore_copper",
+      "oceania:ore_iron_mid",
+      "oceania:ore_iron_small",
+      "oceania:ore_gold",
+      "oceania:ore_redstone",
+      "oceania:ore_redstone_deep",
+      "oceania:ore_lapis",
+      "oceania:ore_lapis_buried",
+      "oceania:ore_granite",
+      "oceania:ore_diorite",
+      "oceania:ore_andesite",
+      "oceania:ore_tuff",
+      "oceania:ore_gravel",
+      "oceania:ore_dirt",
+      "oceania:underwater_magma"
+    ],
+    [
+      "oceania:sculk_vein",
+      "oceania:sculk_patch_deep_dark"
+    ],
+    [],
+    [
+      "oceania:glow_lichen"
+    ],
+    []
+  ]
+}

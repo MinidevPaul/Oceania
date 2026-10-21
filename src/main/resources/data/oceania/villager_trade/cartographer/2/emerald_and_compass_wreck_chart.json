@@ -1,0 +1,43 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 10
+  },
+  "gives": {
+    "id": "minecraft:filled_map"
+  },
+  "max_uses": 12,
+  "xp": 5,
+  "reputation_discount": 0.2,
+  "additional_wants": {
+    "id": "minecraft:compass"
+  },
+  "given_item_modifier": [
+    {
+      "type": "minecraft:exploration_map",
+      "destination": "#minecraft:shipwreck",
+      "decoration": "minecraft:red_x",
+      "zoom": 2,
+      "search_radius": 100,
+      "skip_existing_chunks": true
+    },
+    {
+      "type": "minecraft:set_name",
+      "name": {
+        "translate": "filled_map.oceania.wreck"
+      },
+      "target": "item_name"
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "predicates": {
+          "minecraft:map_id": {}
+        }
+      },
+      "on_fail": {
+        "type": "minecraft:discard"
+      }
+    }
+  ]
+}

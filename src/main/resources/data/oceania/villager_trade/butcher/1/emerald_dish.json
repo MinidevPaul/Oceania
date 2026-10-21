@@ -1,0 +1,25 @@
+{
+  "wants": {
+    "id": "minecraft:emerald"
+  },
+  "gives": {
+    "id": "minecraft:cooked_cod",
+    "count": 4
+  },
+  "max_uses": 16,
+  "xp": 1,
+  "reputation_discount": 0.05,
+  "given_item_modifier": [
+    {
+      "type": "oceania:pick_one",
+      "items": [
+        "minecraft:cooked_cod",
+        "minecraft:cooked_salmon",
+        "minecraft:cooked_chicken",
+        "minecraft:cooked_porkchop",
+        "minecraft:cooked_beef",
+        "minecraft:baked_potato"
+      ]
+    }
+  ]
+}

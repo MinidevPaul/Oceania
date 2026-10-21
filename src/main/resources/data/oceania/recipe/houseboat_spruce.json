@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "houseboat",
+  "pattern": [
+    "LBL",
+    "LLL"
+  ],
+  "key": {
+    "L": "#minecraft:logs",
+    "B": [
+      "minecraft:spruce_boat",
+      "minecraft:spruce_chest_boat"
+    ]
+  },
+  "result": {
+    "id": "oceania:raft_spruce"
+  }
+}

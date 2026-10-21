@@ -1,0 +1,19 @@
+{
+  "entity.whale.song": {
+    "category": "neutral",
+    "subtitle": "subtitles.oceania.whale.song",
+    "sounds": [
+      { "name": "oceania:entity/whale/whale_song1", "stream": true },
+      { "name": "oceania:entity/whale/whale_song2", "stream": true },
+      { "name": "oceania:entity/whale/whale_song3", "stream": true },
+      { "name": "oceania:entity/whale/whale_song_52hz", "stream": true, "weight": 1 }
+    ]
+  },
+  "entity.whale.blow": {
+    "category": "neutral",
+    "subtitle": "subtitles.oceania.whale.blow",
+    "sounds": [
+      { "name": "oceania:entity/whale/whale_blow" }
+    ]
+  }
+}

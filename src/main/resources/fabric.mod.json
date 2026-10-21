@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "oceania",
+	"version": "${version}",
+	"name": "Oceania",
+	"description": "Oceania turns the Overworld into one endless ocean. There is no other world type: every new world is a deep sea dotted with small tropical islands, and your first spawn is on a jungle houseboat.\n\nTHE WORLD\nJungle islands, basalt volcanoes with lava craters and sandy atolls rise from a sea floor of trenches, ridges, seamounts, kelp forests and blue holes. The sea goes far deeper than vanilla, with hydrothermal vents, bubble columns and ore scattered across the abyssal plain. Under the floor the caves are sealed and dry: dripstone, lush caves and the deep dark, with ancient cities, trial chambers, strongholds and mineshafts. Shipwrecks, ocean ruins and monuments still generate, and pillager outposts and trail ruins stand on small islands. Ruined portals, buried treasure and treasure maps are gone; wreck and ruin chests hold diamonds instead.\n\nVILLAGES\nEach large island carries a hut village with a dock and a boat shed. Nine professions have been rebuilt around island life: Fisher, Boatwright, Weaver, Pitkeeper, Seedkeeper, Wayfinder, Chant-keeper, Shaman and Shellworker. The Wayfinder sells a Wreck Chart and a Ruin Chart for a compass and emeralds, plus a plain Chart of These Waters. Saplings for other trees, a spyglass, mushrooms, water breathing and a turtle shell are all trades, since the islands grow only jungle.\n\nTHE HOUSEBOAT\nCraft one from five logs around any boat or chest boat. The boat's wood picks the deck wood, so there are eleven kinds. Use it on water and it places a helm on a 3x3 deck. Build on it with any block, up to 32x32x16: chests, furnaces, crafting tables, doors, torches and beds all work, and furnaces keep smelting while you sail. Sleep on board and that bed is your respawn point wherever the boat goes. Sit at the helm to drive. Top speed is the same whatever the size, and the boat stops against anything solid and backs off rather than turning into it. Drops land on the deck, and anything that goes overboard floats. The helm and the nine deck blocks under it are one piece: mine the helm and the whole houseboat comes up as an item, while every other block drops and containers spill. Using a houseboat item on an existing deck adds a spare helm.\n\nCREATURES\nReef, bull, tiger and great white sharks hunt near the surface. They circle, wind up with a warning, then charge. Blocking during the wind-up works, leaving the water ends the hunt, and the deck of a houseboat is safe. Blue whales travel in pods far from land, surface to blow, and sing with real hydrophone recordings. Seagulls never land and gather over islands, so follow the gulls to find land. Coconut, reef and king crabs scuttle sideways and run from you. Moon jellies, sea nettles and crown jellies drift in neon colours, harmless and common in the deep. The giant squid lives in trenches and plains more than 90 blocks down; it hunts players and whales, and its strike drops an unarmoured player in one hit. Drowned only gather around monuments, wrecks and ruins.\n\nATMOSPHERE\nWater colour follows real depth, from turquoise over sand to navy over the abyss. Underwater, fog thickens with depth and the sky fades out past 24 blocks down. At night, players, boats, sharks and whales leave glowing bioluminescent trails on the surface. Rain and thunder follow their own schedule, and there is no snow or ice anywhere.\n\nCONFIG\nThe Configure button, or config/oceania.json, switches natural spawning of sharks, whales, giant squid, jellyfish and crabs on and off. Spawn eggs and /summon still work. The host's settings apply to the world, and a dedicated server uses its own file.",
+	"authors": [
+		"Meatylumberjack"
+	],
+	"license": "All Rights Reserved",
+	"icon": "assets/oceania/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.oceania.Oceania"
+		],
+		"client": [
+			"com.oceania.client.OceaniaClient"
+		],
+		"modmenu": [
+			"com.oceania.client.config.OceaniaModMenu"
+		]
+	},
+	"accessWidener": "oceania.accesswidener",
+	"mixins": [
+		"oceania.mixins.json",
+		{
+			"config": "oceania.client.mixins.json",
+			"environment": "client"
+		},
+		{
+			"config": "oceania.modmenu.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

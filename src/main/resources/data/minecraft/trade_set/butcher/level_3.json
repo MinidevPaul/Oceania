@@ -1,0 +1,9 @@
+{
+  "amount": 2,
+  "random_sequence": "oceania:trade_set/butcher/level_3",
+  "trades": [
+    "oceania:butcher/3/carrot_emerald",
+    "oceania:butcher/3/potato_emerald",
+    "oceania:butcher/3/emerald_dish"
+  ]
+}

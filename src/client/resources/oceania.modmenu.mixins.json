@@ -1,0 +1,13 @@
+{
+	"required": false,
+	"package": "com.oceania.client.mixin.modmenu",
+	"plugin": "com.oceania.client.mixin.modmenu.ModMenuMixinPlugin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"DescriptionEntryAccessor",
+		"DescriptionListWidgetMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "amount": 2,
+  "random_sequence": "oceania:trade_set/shepherd/level_1",
+  "trades": [
+    "oceania:shepherd/1/string_emerald",
+    "oceania:shepherd/1/emerald_dye"
+  ]
+}

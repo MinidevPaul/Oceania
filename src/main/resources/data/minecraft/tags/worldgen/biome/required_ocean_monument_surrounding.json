@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "oceania:abyssal_plain",
+    "oceania:ridge",
+    "oceania:trench",
+    "oceania:rocky_floor",
+    "oceania:kelp_forest",
+    "oceania:seamount_flank",
+    "oceania:barren_flank",
+    "oceania:sandy_shelf",
+    "oceania:reef",
+    "oceania:lagoon"
+  ]
+}

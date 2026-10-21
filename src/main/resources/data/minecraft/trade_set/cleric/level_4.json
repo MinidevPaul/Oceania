@@ -1,0 +1,8 @@
+{
+  "amount": 2,
+  "random_sequence": "oceania:trade_set/cleric/level_4",
+  "trades": [
+    "oceania:cleric/4/sugar_emerald",
+    "oceania:cleric/4/emerald_night_vision_potion"
+  ]
+}

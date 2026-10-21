@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "triangular",
+    "spacing": 96,
+    "separation": 48,
+    "salt": 165745296
+  },
+  "structures": [
+    {
+      "structure": "minecraft:stronghold",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "entity.minecraft.villager.fisherman": "Fisher",
+  "entity.minecraft.villager.fletcher": "Boatwright",
+  "entity.minecraft.villager.shepherd": "Weaver",
+  "entity.minecraft.villager.butcher": "Pitkeeper",
+  "entity.minecraft.villager.farmer": "Seedkeeper",
+  "entity.minecraft.villager.cartographer": "Wayfinder",
+  "entity.minecraft.villager.librarian": "Chant-keeper",
+  "entity.minecraft.villager.cleric": "Shaman",
+  "entity.minecraft.villager.leatherworker": "Shellworker",
+  "generator.minecraft.normal": "Oceania"
+}

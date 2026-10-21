@@ -1,0 +1,8 @@
+{
+  "amount": 2,
+  "random_sequence": "oceania:trade_set/shepherd/level_4",
+  "trades": [
+    "oceania:shepherd/4/cocoa_beans_emerald",
+    "oceania:shepherd/4/emerald_banner"
+  ]
+}

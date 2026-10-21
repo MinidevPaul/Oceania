@@ -1,0 +1,143 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.95,
+  "downfall": 0.9,
+  "effects": {
+    "water_color": "#43d5ee"
+  },
+  "attributes": {
+    "minecraft:visual/sky_color": "#78a7ff",
+    "minecraft:visual/water_fog_color": "#1b3a5c",
+    "minecraft:audio/background_music": {
+      "creative": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": "minecraft:music.creative"
+      },
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": "minecraft:music.game"
+      },
+      "underwater": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": "minecraft:music.under_water"
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {
+          "oceania:shark": {
+            "charge": 1.0,
+            "energy_budget": 0.0054
+          }
+        },
+        "spawns_by_category": {
+          "monster": [
+            {
+              "type": "oceania:shark",
+              "weight": 1,
+              "count": 1
+            }
+          ],
+          "water_creature": [
+            {
+              "type": "minecraft:dolphin",
+              "weight": 2,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              }
+            },
+            {
+              "type": "minecraft:squid",
+              "weight": 1,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 4
+              }
+            }
+          ],
+          "water_ambient": [
+            {
+              "type": "minecraft:cod",
+              "weight": 10,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 3,
+                "max_inclusive": 6
+              }
+            },
+            {
+              "type": "minecraft:salmon",
+              "weight": 5,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 5
+              }
+            }
+          ]
+        }
+      },
+      "modifier": "overlay"
+    }
+  },
+  "carvers": [
+    "oceania:deep_cave",
+    "oceania:deep_cave_extra"
+  ],
+  "features": [
+    [],
+    [
+      "oceania:lake_lava_underground"
+    ],
+    [
+      "oceania:amethyst_geode",
+      "oceania:fossil_upper",
+      "oceania:fossil_lower"
+    ],
+    [
+      "oceania:monster_room",
+      "oceania:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "oceania:ore_redstone_rock",
+      "oceania:ore_diamond",
+      "oceania:ore_diamond_buried",
+      "oceania:ore_coal",
+      "oceania:ore_copper",
+      "oceania:ore_iron_mid",
+      "oceania:ore_iron_small",
+      "oceania:ore_gold",
+      "oceania:ore_redstone",
+      "oceania:ore_redstone_deep",
+      "oceania:ore_lapis",
+      "oceania:ore_lapis_buried",
+      "oceania:ore_granite",
+      "oceania:ore_diorite",
+      "oceania:ore_andesite",
+      "oceania:ore_tuff",
+      "oceania:ore_gravel",
+      "oceania:ore_dirt",
+      "oceania:underwater_magma"
+    ],
+    [
+      "oceania:disk_sand",
+      "oceania:disk_clay",
+      "oceania:disk_gravel"
+    ],
+    [],
+    [
+      "minecraft:seagrass_normal",
+      "oceania:kelp_sparse",
+      "oceania:glow_lichen"
+    ],
+    []
+  ]
+}

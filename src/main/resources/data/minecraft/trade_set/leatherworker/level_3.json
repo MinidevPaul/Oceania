@@ -1,0 +1,8 @@
+{
+  "amount": 2,
+  "random_sequence": "oceania:trade_set/leatherworker/level_3",
+  "trades": [
+    "oceania:leatherworker/3/turtle_scute_emerald",
+    "oceania:leatherworker/3/emerald_dyed_leather_chestplate"
+  ]
+}

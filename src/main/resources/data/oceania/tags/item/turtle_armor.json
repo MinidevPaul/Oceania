@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:turtle_helmet",
+    "oceania:turtle_chestplate",
+    "oceania:turtle_leggings",
+    "oceania:turtle_boots"
+  ]
+}

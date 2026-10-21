@@ -1,0 +1,8 @@
+{
+  "amount": 2,
+  "random_sequence": "oceania:trade_set/leatherworker/level_1",
+  "trades": [
+    "oceania:leatherworker/1/leather_emerald",
+    "oceania:leatherworker/1/emerald_bone_meal"
+  ]
+}

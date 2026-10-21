@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipes": "oceania:houseboat_pale_oak"
+      }
+    },
+    "has_boat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pale_oak_boat",
+              "minecraft:pale_oak_chest_boat"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_boat"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "oceania:houseboat_pale_oak"
+    ]
+  }
+}

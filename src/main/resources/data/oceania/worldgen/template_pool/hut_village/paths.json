@@ -1,0 +1,74 @@
+{
+  "fallback": "oceania:hut_village/path_ends",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "oceania:hut_village/path_straight",
+        "processors": "oceania:hut_path",
+        "projection": "terrain_matching"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "oceania:hut_village/path_jog_east",
+        "processors": "oceania:hut_path",
+        "projection": "terrain_matching"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "oceania:hut_village/path_jog_west",
+        "processors": "oceania:hut_path",
+        "projection": "terrain_matching"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "oceania:hut_village/path_wander",
+        "processors": "oceania:hut_path",
+        "projection": "terrain_matching"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "oceania:hut_village/path_corner_east",
+        "processors": "oceania:hut_path",
+        "projection": "terrain_matching"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "oceania:hut_village/path_corner_west",
+        "processors": "oceania:hut_path",
+        "projection": "terrain_matching"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "oceania:hut_village/path_fork",
+        "processors": "oceania:hut_path",
+        "projection": "terrain_matching"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}

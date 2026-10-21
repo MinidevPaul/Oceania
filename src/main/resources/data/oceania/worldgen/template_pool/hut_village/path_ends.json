@@ -1,0 +1,23 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "oceania:hut_village/path_end",
+        "processors": "oceania:hut_path",
+        "projection": "terrain_matching"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "oceania:hut_village/path_end_hut",
+        "processors": "oceania:hut_path",
+        "projection": "terrain_matching"
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 6
+  },
+  "gives": {
+    "id": "minecraft:coast_armor_trim_smithing_template"
+  },
+  "max_uses": 3,
+  "xp": 15,
+  "reputation_discount": 0.05,
+  "given_item_modifier": [
+    {
+      "type": "oceania:pick_one",
+      "items": [
+        "minecraft:coast_armor_trim_smithing_template",
+        "minecraft:tide_armor_trim_smithing_template",
+        "minecraft:dune_armor_trim_smithing_template"
+      ]
+    }
+  ]
+}

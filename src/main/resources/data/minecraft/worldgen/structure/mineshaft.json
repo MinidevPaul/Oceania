@@ -1,0 +1,14 @@
+{
+  "type": "oceania:floor_mineshaft",
+  "biomes": "#minecraft:has_structure/mineshaft",
+  "mineshaft_type": "normal",
+  "spawn_overrides": {},
+  "step": "underground_structures",
+  "floor_depth": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 24,
+    "max_inclusive": 100
+  },
+  "min_y": -640,
+  "max_floor_spread": 120
+}

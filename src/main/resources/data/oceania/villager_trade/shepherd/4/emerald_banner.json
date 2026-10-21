@@ -1,0 +1,35 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 3
+  },
+  "gives": {
+    "id": "minecraft:white_banner"
+  },
+  "max_uses": 8,
+  "xp": 15,
+  "reputation_discount": 0.05,
+  "given_item_modifier": [
+    {
+      "type": "oceania:pick_one",
+      "items": [
+        "minecraft:white_banner",
+        "minecraft:orange_banner",
+        "minecraft:magenta_banner",
+        "minecraft:light_blue_banner",
+        "minecraft:yellow_banner",
+        "minecraft:lime_banner",
+        "minecraft:pink_banner",
+        "minecraft:gray_banner",
+        "minecraft:light_gray_banner",
+        "minecraft:cyan_banner",
+        "minecraft:purple_banner",
+        "minecraft:blue_banner",
+        "minecraft:brown_banner",
+        "minecraft:green_banner",
+        "minecraft:red_banner",
+        "minecraft:black_banner"
+      ]
+    }
+  ]
+}

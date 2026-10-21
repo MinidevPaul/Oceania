@@ -1,0 +1,18 @@
+{
+  "wants": {
+    "id": "minecraft:carrot",
+    "count": 15
+  },
+  "gives": {
+    "id": "minecraft:emerald"
+  },
+  "max_uses": 16,
+  "xp": 10,
+  "reputation_discount": 0.05,
+  "merchant_predicate": {
+    "type": "oceania:villager_roll",
+    "choices": 2,
+    "choice": 0,
+    "salt": "butcher/3"
+  }
+}

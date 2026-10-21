@@ -1,0 +1,8 @@
+{
+  "amount": 2,
+  "random_sequence": "oceania:trade_set/fisherman/level_2",
+  "trades": [
+    "oceania:fisherman/2/salmon_emerald",
+    "oceania:fisherman/2/emerald_cooked_salmon"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "amount": 2,
+  "random_sequence": "oceania:trade_set/farmer/level_1",
+  "trades": [
+    "oceania:farmer/1/sugar_cane_emerald",
+    "oceania:farmer/1/emerald_field_seeds"
+  ]
+}

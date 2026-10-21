@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "oceania:trench",
+    "oceania:abyssal_plain",
+    "oceania:ridge",
+    "oceania:seamount_flank",
+    "oceania:rocky_floor",
+    "oceania:kelp_forest",
+    "oceania:reef",
+    "oceania:lagoon",
+    "oceania:sandy_shelf",
+    "oceania:island_sand",
+    "oceania:island_jungle",
+    "oceania:island_cliff",
+    "oceania:dripstone_caves",
+    "oceania:lush_caves",
+    "oceania:sulfur_caves"
+  ]
+}

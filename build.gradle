@@ -1,0 +1,209 @@
+plugins {
+
+	id 'net.fabricmc.fabric-loom' version "${loom_version}"
+	id 'maven-publish'
+}
+
+repositories {
+
+	maven { url "https://maven.terraformersmc.com/releases/" }
+}
+
+def passThrough = { List<String> keys -> keys.findResults { key ->
+	def prop = 'oceania' + key.split('\\.').collect { it.capitalize() }.join('')
+	project.hasProperty(prop) ? "-Doceania.${key}=${project.property(prop)}".toString() : null
+} }
+
+def tier4Args = passThrough(['walls', 'wall.relief', 'wall.slope', 'caves.island', 'caves.floor', 'caves.floor.air', 'caves.sea',
+							 'seacave.relief', 'bluehole', 'bluehole.thr',
+
+							 'cavebiomes', 'cavedeco', 'cavestructures', 'veins',
+							 'outposts', 'temples', 'lava.depth', 'lava.pocket',
+
+							 'cave.scale',
+
+							 'cave.seal', 'cave.cover', 'cave.cover.max', 'cave.wall.cover', 'cave.lateral', 'cave.lateral.radius',
+
+							 'caves.wet', 'caves.wet.thr', 'caves.wet.span', 'caves.wet.seal',
+							 'caves.wet.scale', 'caves.wet.corespan'])
+
+def effectArgs = passThrough(['weather', 'weather.rain.delay', 'weather.rain.duration', 'weather.thunder.delay',
+							  'weather.thunder.duration', 'biolum', 'biolum.rate', 'biolum.reach'])
+
+def perfArgs = passThrough(['async.surface', 'async.carvers', 'surface.biomecache', 'surface.biomegate', 'surface.fastwrite', 'surface.fastwrite.heightmaps',
+
+							  'worker.threads',
+
+							  'deeprock.fill', 'deeprock.depth',
+
+                              'surface.deepskip', 'surface.deepskip.depth', 'surface.deepskip.verify',
+
+                              'fluid.empty.cache'])
+
+def villageArgs = passThrough(['village.separate', 'village.doorfacing', 'village.land', 'village.smoke.count'])
+
+loom {
+	splitEnvironmentSourceSets()
+
+	accessWidenerPath = file("src/main/resources/oceania.accesswidener")
+
+	mods {
+		"oceania" {
+			sourceSet sourceSets.main
+			sourceSet sourceSets.client
+		}
+	}
+
+	runs {
+
+		headless {
+			server()
+			runDir "run-headless"
+			name "Headless Server (bench/smoke/map)"
+			ideConfigGenerated false
+			vmArg "-Doceania.height=${project.findProperty('oceaniaHeight') ?: 'default'}"
+			vmArg "-Doceania.bench.radius=${project.findProperty('oceaniaBenchRadius') ?: '-1'}"
+			vmArg "-Doceania.bench.offset=${project.findProperty('oceaniaBenchOffset') ?: '10000'}"
+			vmArg "-Doceania.bench.halt=${project.findProperty('oceaniaBenchHalt') ?: 'true'}"
+			if (project.hasProperty('oceaniaBenchX')) vmArg "-Doceania.bench.x=${project.property('oceaniaBenchX')}"
+			if (project.hasProperty('oceaniaBenchZ')) vmArg "-Doceania.bench.z=${project.property('oceaniaBenchZ')}"
+			vmArg "-Doceania.smoke=${project.findProperty('oceaniaSmoke') ?: ''}"
+			vmArg "-Doceania.village.debug=${project.findProperty('oceaniaVillageDebug') ?: 'false'}"
+			vmArg "-Doceania.feature.reads=${project.findProperty('oceaniaFeatureReads') ?: 'false'}"
+			vmArg "-Doceania.surface.scan=${project.findProperty('oceaniaSurfaceScan') ?: 'false'}"
+
+			if (project.hasProperty('oceaniaBgThreads')) vmArg "-Dmax.bg.threads=${project.property('oceaniaBgThreads')}"
+			vmArg "-Doceania.dry=${project.findProperty('oceaniaDry') ?: 'false'}"
+			vmArg "-Doceania.flow=${project.findProperty('oceaniaFlow') ?: 'true'}"
+			vmArg "-Doceania.flow.dump=${project.findProperty('oceaniaFlowDump') ?: 'false'}"
+			vmArg "-Doceania.map.radius=${project.findProperty('oceaniaMapRadius') ?: '-1'}"
+			vmArg "-Doceania.map.step=${project.findProperty('oceaniaMapStep') ?: '4'}"
+			if (project.hasProperty('oceaniaMapX')) vmArg "-Doceania.map.x=${project.property('oceaniaMapX')}"
+			if (project.hasProperty('oceaniaMapZ')) vmArg "-Doceania.map.z=${project.property('oceaniaMapZ')}"
+			vmArg "-Doceania.slice.len=${project.findProperty('oceaniaSliceLen') ?: '-1'}"
+			vmArg "-Doceania.slice.axis=${project.findProperty('oceaniaSliceAxis') ?: 'x'}"
+			if (project.hasProperty('oceaniaSliceX')) vmArg "-Doceania.slice.x=${project.property('oceaniaSliceX')}"
+			if (project.hasProperty('oceaniaSliceZ')) vmArg "-Doceania.slice.z=${project.property('oceaniaSliceZ')}"
+			if (project.hasProperty('oceaniaSliceYLo')) vmArg "-Doceania.slice.ylo=${project.property('oceaniaSliceYLo')}"
+			if (project.hasProperty('oceaniaSliceYHi')) vmArg "-Doceania.slice.yhi=${project.property('oceaniaSliceYHi')}"
+			if (project.hasProperty('oceaniaSliceList')) vmArg "-Doceania.slice.list=${project.property('oceaniaSliceList')}"
+
+			vmArg "-Doceania.cave.shares=${project.findProperty('oceaniaCaveShares') ?: '-1'}"
+			vmArg "-Doceania.cave.shares.step=${project.findProperty('oceaniaCaveSharesStep') ?: '16'}"
+			vmArg "-Doceania.cave.shares.seeds=${project.findProperty('oceaniaCaveSharesSeeds') ?: '42'}"
+			if (project.hasProperty('oceaniaVanillaData')) vmArg "-Doceania.vanilla.data=${project.property('oceaniaVanillaData')}"
+			if (project.hasProperty('oceaniaVillageList')) vmArg "-Doceania.village.list=${project.property('oceaniaVillageList')}"
+			vmArg "-Doceania.ore.radius=${project.findProperty('oceaniaOreRadius') ?: '-1'}"
+			if (project.hasProperty('oceaniaOreX')) vmArg "-Doceania.ore.x=${project.property('oceaniaOreX')}"
+			if (project.hasProperty('oceaniaOreZ')) vmArg "-Doceania.ore.z=${project.property('oceaniaOreZ')}"
+			if (project.hasProperty('oceaniaOreFillCap')) vmArg "-Doceania.ore.fill.cap=${project.property('oceaniaOreFillCap')}"
+			vmArg "-Doceania.spawn.radius=${project.findProperty('oceaniaSpawnRadius') ?: '-1'}"
+			if (project.hasProperty('oceaniaSpawnX')) vmArg "-Doceania.spawn.x=${project.property('oceaniaSpawnX')}"
+			if (project.hasProperty('oceaniaSpawnZ')) vmArg "-Doceania.spawn.z=${project.property('oceaniaSpawnZ')}"
+			vmArg "-Doceania.landspawn.radius=${project.findProperty('oceaniaLandspawnRadius') ?: '-1'}"
+			if (project.hasProperty('oceaniaLandspawnX')) vmArg "-Doceania.landspawn.x=${project.property('oceaniaLandspawnX')}"
+			if (project.hasProperty('oceaniaLandspawnZ')) vmArg "-Doceania.landspawn.z=${project.property('oceaniaLandspawnZ')}"
+			vmArg "-Doceania.landspawn.wide=${project.findProperty('oceaniaLandspawnWide') ?: '-1'}"
+			for (String a : tier4Args) vmArg a
+			for (String a : effectArgs) vmArg a
+			for (String a : perfArgs) vmArg a
+			for (String a : villageArgs) vmArg a
+		}
+
+		client {
+			vmArg "-Doceania.client.smoke=${project.findProperty('oceaniaClientSmoke') ?: ''}"
+		}
+		clientSmoke {
+			client()
+			runDir "run"
+			name "Client (quick play smoke)"
+			ideConfigGenerated false
+			programArgs "--quickPlaySingleplayer", "smoke"
+
+			vmArg "-Doceania.client.smoke=${project.findProperty('oceaniaClientSmoke') ?: ''}"
+		}
+		server {
+			vmArg "-Doceania.height=${project.findProperty('oceaniaHeight') ?: 'default'}"
+			vmArg "-Doceania.dry=${project.findProperty('oceaniaDry') ?: 'false'}"
+			vmArg "-Doceania.flow=${project.findProperty('oceaniaFlow') ?: 'true'}"
+			for (String a : tier4Args) vmArg a
+			for (String a : effectArgs) vmArg a
+			for (String a : perfArgs) vmArg a
+			for (String a : villageArgs) vmArg a
+		}
+		client {
+			vmArg "-Doceania.dry=${project.findProperty('oceaniaDry') ?: 'false'}"
+			vmArg "-Doceania.flow=${project.findProperty('oceaniaFlow') ?: 'true'}"
+			for (String a : tier4Args) vmArg a
+			for (String a : effectArgs) vmArg a
+			for (String a : perfArgs) vmArg a
+			for (String a : villageArgs) vmArg a
+		}
+	}
+}
+
+dependencies {
+
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+
+	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+	compileOnly "com.terraformersmc:modmenu:${project.modmenu_version}"
+	localRuntime "com.terraformersmc:modmenu:${project.modmenu_version}"
+}
+
+processResources {
+	def version = project.version
+	inputs.property "version", version
+
+	filesMatching("oceania.accesswidener") {
+		filter { line -> line.trim().startsWith("#") ? null : line }
+	}
+
+	filesMatching("fabric.mod.json") {
+
+		expand(["version": version]) { escapeBackslash = true }
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 25
+}
+
+java {
+
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(25)
+	}
+
+	withSourcesJar()
+
+	sourceCompatibility = JavaVersion.VERSION_25
+	targetCompatibility = JavaVersion.VERSION_25
+}
+
+jar {
+	def projectName = project.name
+	inputs.property "projectName", projectName
+
+	from("LICENSE") {
+		rename { "${it}_$projectName"}
+	}
+
+	from("LICENSE-THIRD-PARTY.md") {
+		rename { "LICENSE-THIRD-PARTY_${projectName}.md" }
+	}
+}
+
+publishing {
+	publications {
+		create("mavenJava", MavenPublication) {
+			from components.java
+		}
+	}
+
+	repositories {
+
+	}
+}

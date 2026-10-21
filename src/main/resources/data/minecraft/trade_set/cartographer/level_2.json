@@ -1,0 +1,8 @@
+{
+  "amount": 2,
+  "random_sequence": "oceania:trade_set/cartographer/level_2",
+  "trades": [
+    "oceania:cartographer/2/glass_pane_emerald",
+    "oceania:cartographer/2/emerald_and_compass_wreck_chart"
+  ]
+}

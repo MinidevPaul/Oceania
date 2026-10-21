@@ -1,0 +1,13 @@
+{
+  "type": "oceania:island_temple",
+  "biomes": "#minecraft:has_structure/jungle_temple",
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "island_types": [
+    "large"
+  ],
+  "min_reach": 100.0,
+  "search_radius": 64,
+  "max_shift": 112,
+  "island_chance": 1.0
+}

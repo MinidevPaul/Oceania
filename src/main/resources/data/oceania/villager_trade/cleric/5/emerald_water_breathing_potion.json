@@ -1,0 +1,18 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 10
+  },
+  "gives": {
+    "id": "minecraft:potion"
+  },
+  "max_uses": 4,
+  "xp": 30,
+  "reputation_discount": 0.05,
+  "given_item_modifier": [
+    {
+      "type": "minecraft:set_potion",
+      "id": "minecraft:water_breathing"
+    }
+  ]
+}

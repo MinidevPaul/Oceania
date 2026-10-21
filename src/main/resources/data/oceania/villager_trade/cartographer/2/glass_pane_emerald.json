@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:glass_pane",
+    "count": 11
+  },
+  "gives": {
+    "id": "minecraft:emerald"
+  },
+  "max_uses": 16,
+  "xp": 5,
+  "reputation_discount": 0.05
+}

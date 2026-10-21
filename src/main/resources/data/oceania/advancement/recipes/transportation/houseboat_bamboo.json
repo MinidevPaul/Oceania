@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipes": "oceania:houseboat_bamboo"
+      }
+    },
+    "has_boat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bamboo_raft",
+              "minecraft:bamboo_chest_raft"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_boat"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "oceania:houseboat_bamboo"
+    ]
+  }
+}

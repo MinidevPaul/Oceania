@@ -1,0 +1,28 @@
+{
+  "required": true,
+  "package": "com.oceania.client.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "BiomeColorsMixin",
+    "ClientLevelRainMixin",
+    "ClientPacketListenerTraceMixin",
+    "EntityRendererLightMixin",
+    "FogRendererMixin",
+    "LevelRendererSkyMixin",
+    "MinecraftRaftAccessor",
+    "MinecraftRaftInputMixin",
+    "MinecraftRaftPickMixin",
+    "ScreenPanoramaMixin",
+    "SoundEngineListenerMixin",
+    "SquidRendererMixin",
+    "WeatherEffectRendererMixin",
+    "WorldTypeLockMixin",
+    "WorldTypeRowMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

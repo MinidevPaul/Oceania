@@ -1,0 +1,25 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 8
+  },
+  "gives": {
+    "id": "minecraft:filled_map"
+  },
+  "max_uses": 6,
+  "xp": 15,
+  "reputation_discount": 0.05,
+  "given_item_modifier": [
+    {
+      "type": "oceania:regional_chart",
+      "scale": 4
+    },
+    {
+      "type": "minecraft:set_name",
+      "name": {
+        "translate": "filled_map.oceania.waters"
+      },
+      "target": "item_name"
+    }
+  ]
+}

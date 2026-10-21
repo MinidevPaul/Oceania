@@ -1,0 +1,8 @@
+{
+  "amount": 2,
+  "random_sequence": "oceania:trade_set/cleric/level_2",
+  "trades": [
+    "oceania:cleric/2/spider_eye_emerald",
+    "oceania:cleric/2/emerald_red_mushroom"
+  ]
+}

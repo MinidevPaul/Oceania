@@ -1,0 +1,27 @@
+{
+  "feature": "minecraft:glow_lichen",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 60,
+        "max_inclusive": 90
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "oceania:floor_depth",
+      "depth": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 16,
+        "max_inclusive": 300
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

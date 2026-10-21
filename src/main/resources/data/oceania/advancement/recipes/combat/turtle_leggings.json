@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipes": "oceania:turtle_leggings"
+      }
+    },
+    "has_turtle_scute": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:turtle_scute"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_turtle_scute"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "oceania:turtle_leggings"
+    ]
+  }
+}

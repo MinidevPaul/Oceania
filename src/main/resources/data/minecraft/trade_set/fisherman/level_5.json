@@ -1,0 +1,7 @@
+{
+  "amount": 1,
+  "random_sequence": "oceania:trade_set/fisherman/level_5",
+  "trades": [
+    "oceania:fisherman/5/emerald_enchanted_fishing_rod"
+  ]
+}

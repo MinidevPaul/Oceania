@@ -1,0 +1,27 @@
+{
+  "feature": "minecraft:sculk_vein",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 120,
+        "max_inclusive": 160
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "oceania:floor_depth",
+      "depth": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 128,
+        "max_inclusive": 300
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

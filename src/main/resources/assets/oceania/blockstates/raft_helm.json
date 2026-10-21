@@ -1,0 +1,37 @@
+{
+  "variants": {
+    "wood=oak": {
+      "model": "oceania:block/raft_helm_oak"
+    },
+    "wood=spruce": {
+      "model": "oceania:block/raft_helm_spruce"
+    },
+    "wood=birch": {
+      "model": "oceania:block/raft_helm_birch"
+    },
+    "wood=jungle": {
+      "model": "oceania:block/raft_helm_jungle"
+    },
+    "wood=acacia": {
+      "model": "oceania:block/raft_helm_acacia"
+    },
+    "wood=dark_oak": {
+      "model": "oceania:block/raft_helm_dark_oak"
+    },
+    "wood=mangrove": {
+      "model": "oceania:block/raft_helm_mangrove"
+    },
+    "wood=cherry": {
+      "model": "oceania:block/raft_helm_cherry"
+    },
+    "wood=pale_oak": {
+      "model": "oceania:block/raft_helm_pale_oak"
+    },
+    "wood=poplar": {
+      "model": "oceania:block/raft_helm_poplar"
+    },
+    "wood=bamboo": {
+      "model": "oceania:block/raft_helm_bamboo"
+    }
+  }
+}
